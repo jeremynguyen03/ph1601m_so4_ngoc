@@ -1,0 +1,75 @@
+body {
+    width: 980px;
+    margin: 0px auto;
+}
+
+
+
+/*--Begin Header--*/
+header {
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background: url("images/header_bgr.jpg") repeat-x;
+}
+
+#logo {
+    float: left;
+    position: absolute;
+    left: 50px;
+}
+
+#slogan {
+    height: 30px;
+}
+
+#slogan a {
+    position: absolute;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+    color: gray;
+    top: 28px;
+    left: 298px;
+    padding: 2px 18px;
+    border-left: 1px solid gray;
+    text-decoration: none;
+}
+
+#rss {
+    position: absolute;
+    right: 40px;
+    top: 30px;
+
+}
+
+/*--End Header--*/
+
+/*--Begin Menu--*/
+nav {
+    background: url("images/menu_bg.gif") repeat-x;
+    width: 980px;
+    height: 40px;
+    margin-top: -16px;
+    padding-bottom: 0px;
+
+}
+
+nav ul li {
+    float: left;
+    list-style: none;
+}
+
+/*End Menu*/
+
+/*Begin slider*/
+section #slider {
+    width: 980px;
+    height: 333px;
+
+
+}
+#slider-img{
+    margin-top: -2px !important;
+}
